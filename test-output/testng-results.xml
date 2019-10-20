@@ -1,17 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
   <reporter-output>
+    <line>
+      <![CDATA[Test case to verify the header and paragraph for the page is pass]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="227" started-at="2019-10-19T14:18:58 IST" finished-at="2019-10-19T14:18:58 IST">
+  <suite name="Suite" duration-ms="54991" started-at="2019-10-20T22:19:09 IST" finished-at="2019-10-20T22:20:04 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="227" started-at="2019-10-19T14:18:58 IST" finished-at="2019-10-19T14:18:58 IST">
-      <class name="pageObject.challengingDOM.ChallengingDOM">
-        <test-method status="PASS" signature="test1()[pri:0, instance:pageObject.challengingDOM.ChallengingDOM@704641e3]" name="test1" duration-ms="41" started-at="2019-10-19T14:18:58 IST" finished-at="2019-10-19T14:18:58 IST">
+    <test name="Test" duration-ms="54991" started-at="2019-10-20T22:19:09 IST" finished-at="2019-10-20T22:20:04 IST">
+      <class name="com.test.challengingDOM.ChallengingDOM">
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="initialSetup" is-config="true" duration-ms="7577" started-at="2019-10-20T22:19:09 IST" finished-at="2019-10-20T22:19:16 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- pageObject.challengingDOM.ChallengingDOM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- initialSetup -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="4827" started-at="2019-10-20T22:19:17 IST" finished-at="2019-10-20T22:19:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="testToVerifyTheHeaderAndParagraph()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="testToVerifyTheHeaderAndParagraph" duration-ms="622" started-at="2019-10-20T22:19:21 IST" description="Verify the header and paragraph for the page" finished-at="2019-10-20T22:19:22 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Test case to verify the header and paragraph for the page is pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testToVerifyTheHeaderAndParagraph -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="709" started-at="2019-10-20T22:19:22 IST" finished-at="2019-10-20T22:19:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="testToVerifyTheTextAndHyperlinkOfTheGITHub()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="testToVerifyTheTextAndHyperlinkOfTheGITHub" duration-ms="4549" started-at="2019-10-20T22:19:23 IST" description="Verify the text and hyperlink of the GIT Hub" finished-at="2019-10-20T22:19:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testToVerifyTheTextAndHyperlinkOfTheGITHub -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="608" started-at="2019-10-20T22:19:27 IST" finished-at="2019-10-20T22:19:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyAnswerBlock()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyAnswerBlock" duration-ms="203" started-at="2019-10-20T22:19:28 IST" description="Verify the presence of Answer block" finished-at="2019-10-20T22:19:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAnswerBlock -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="716" started-at="2019-10-20T22:19:28 IST" finished-at="2019-10-20T22:19:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyDeleteButtonClickInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyDeleteButtonClickInEachRow" duration-ms="3968" started-at="2019-10-20T22:19:29 IST" description="Verify the delete click functionality -base url change" finished-at="2019-10-20T22:19:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteButtonClickInEachRow -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1116" started-at="2019-10-20T22:19:33 IST" finished-at="2019-10-20T22:19:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyDeleteButtonInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyDeleteButtonInEachRow" duration-ms="1987" started-at="2019-10-20T22:19:34 IST" description="verify end of each row delete button is present" finished-at="2019-10-20T22:19:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteButtonInEachRow -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="731" started-at="2019-10-20T22:19:36 IST" finished-at="2019-10-20T22:19:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyEachColumnDataSequence()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEachColumnDataSequence" duration-ms="6511" started-at="2019-10-20T22:19:37 IST" description="verify each column columnsequence" finished-at="2019-10-20T22:19:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEachColumnDataSequence -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1120" started-at="2019-10-20T22:19:43 IST" finished-at="2019-10-20T22:19:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyEditButtonClickInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEditButtonClickInEachRow" duration-ms="3771" started-at="2019-10-20T22:19:44 IST" description="Verify the edit click functionality -base url change" finished-at="2019-10-20T22:19:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonClickInEachRow -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="534" started-at="2019-10-20T22:19:48 IST" finished-at="2019-10-20T22:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyEditButtonInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEditButtonInEachRow" duration-ms="1163" started-at="2019-10-20T22:19:49 IST" description="verify end of each row edit button is present" finished-at="2019-10-20T22:19:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditButtonInEachRow -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="612" started-at="2019-10-20T22:19:50 IST" finished-at="2019-10-20T22:19:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyFooter()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyFooter" duration-ms="7286" started-at="2019-10-20T22:19:50 IST" description="Verify the prsence of Footer and it&#039;s hyper link" finished-at="2019-10-20T22:19:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooter -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="3233" started-at="2019-10-20T22:19:58 IST" finished-at="2019-10-20T22:20:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyTheButtons()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyTheButtons" duration-ms="986" started-at="2019-10-20T22:20:01 IST" description="Verify the buttons- display ,enable ,color" finished-at="2019-10-20T22:20:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheButtons -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="652" started-at="2019-10-20T22:20:02 IST" finished-at="2019-10-20T22:20:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="verifyTheHeader()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyTheHeader" duration-ms="514" started-at="2019-10-20T22:20:02 IST" description="verify the table header -name" finished-at="2019-10-20T22:20:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTheHeader -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="closeBrowser" is-config="true" duration-ms="824" started-at="2019-10-20T22:20:03 IST" finished-at="2019-10-20T22:20:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.challengingDOM.ChallengingDOM -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
