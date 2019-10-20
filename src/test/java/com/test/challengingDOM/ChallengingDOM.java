@@ -32,7 +32,7 @@ public class ChallengingDOM extends BaseClass {
 	@Test(description = "Verify the text and hyperlink of the GIT Hub")
 	public void testToVerifyTheTextAndHyperlinkOfTheGITHub() {
 		ChallengingDOMPage challengingDOMPage = new ChallengingDOMPage();
-		Assert.assertEquals(challengingDOMPage.verifyGitHubLinkIsDispalyAndEnable(), true);
+		Assert.assertEquals(challengingDOMPage.gitHubLinkIsDispalyAndEnable(), true);
 		Assert.assertEquals(challengingDOMPage.getGITImageText(), "Fork me on GitHub");
 		Assert.assertEquals(challengingDOMPage.clickOnGitHubAndVerifyTheBaseURL(),
 				"https://github.com/tourdedave/the-internet");

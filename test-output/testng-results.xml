@@ -1,115 +1,500 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+<testng-results skipped="0" failed="7" ignored="0" total="11" passed="4">
   <reporter-output>
     <line>
       <![CDATA[Test case to verify the header and paragraph for the page is pass]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="54991" started-at="2019-10-20T22:19:09 IST" finished-at="2019-10-20T22:20:04 IST">
+  <suite name="Challenging DOM Parallel Testing" duration-ms="35151" started-at="2019-10-21T02:27:18 IST" finished-at="2019-10-21T02:27:53 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="54991" started-at="2019-10-20T22:19:09 IST" finished-at="2019-10-20T22:20:04 IST">
+    <test name=" Challenging DOM" duration-ms="35151" started-at="2019-10-21T02:27:18 IST" finished-at="2019-10-21T02:27:53 IST">
       <class name="com.test.challengingDOM.ChallengingDOM">
-        <test-method status="PASS" signature="initialSetup()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="initialSetup" is-config="true" duration-ms="7577" started-at="2019-10-20T22:19:09 IST" finished-at="2019-10-20T22:19:16 IST">
+        <test-method status="PASS" signature="initialSetup()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="initialSetup" is-config="true" duration-ms="8585" started-at="2019-10-21T02:27:18 IST" finished-at="2019-10-21T02:27:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialSetup -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="4827" started-at="2019-10-20T22:19:17 IST" finished-at="2019-10-20T22:19:21 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="6102" started-at="2019-10-21T02:27:27 IST" finished-at="2019-10-21T02:27:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="testToVerifyTheHeaderAndParagraph()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="testToVerifyTheHeaderAndParagraph" duration-ms="622" started-at="2019-10-20T22:19:21 IST" description="Verify the header and paragraph for the page" finished-at="2019-10-20T22:19:22 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="5465" started-at="2019-10-21T02:27:27 IST" finished-at="2019-10-21T02:27:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="4696" started-at="2019-10-21T02:27:27 IST" finished-at="2019-10-21T02:27:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="6669" started-at="2019-10-21T02:27:27 IST" finished-at="2019-10-21T02:27:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="PASS" signature="testToVerifyTheHeaderAndParagraph()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="testToVerifyTheHeaderAndParagraph" duration-ms="6240" started-at="2019-10-21T02:27:32 IST" description="Verify the header and paragraph for the page" finished-at="2019-10-21T02:27:38 IST">
           <reporter-output>
             <line>
               <![CDATA[Test case to verify the header and paragraph for the page is pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- testToVerifyTheHeaderAndParagraph -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="709" started-at="2019-10-20T22:19:22 IST" finished-at="2019-10-20T22:19:23 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="testToVerifyTheTextAndHyperlinkOfTheGITHub()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="testToVerifyTheTextAndHyperlinkOfTheGITHub" duration-ms="4549" started-at="2019-10-20T22:19:23 IST" description="Verify the text and hyperlink of the GIT Hub" finished-at="2019-10-20T22:19:27 IST">
+        <test-method status="FAIL" signature="testToVerifyTheTextAndHyperlinkOfTheGITHub()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="testToVerifyTheTextAndHyperlinkOfTheGITHub" duration-ms="3156" started-at="2019-10-21T02:27:32 IST" description="Verify the text and hyperlink of the GIT Hub" finished-at="2019-10-21T02:27:36 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at utility.UserActions.getAttribute(UserActions.java:27)
+at pageObject.challengingDOM.ChallengingDOMPage.getGITImageText(ChallengingDOMPage.java:46)
+at com.test.challengingDOM.ChallengingDOM.testToVerifyTheTextAndHyperlinkOfTheGITHub(ChallengingDOM.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testToVerifyTheTextAndHyperlinkOfTheGITHub -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="608" started-at="2019-10-20T22:19:27 IST" finished-at="2019-10-20T22:19:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyAnswerBlock()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyAnswerBlock" duration-ms="203" started-at="2019-10-20T22:19:28 IST" description="Verify the presence of Answer block" finished-at="2019-10-20T22:19:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAnswerBlock -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="716" started-at="2019-10-20T22:19:28 IST" finished-at="2019-10-20T22:19:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyDeleteButtonClickInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyDeleteButtonClickInEachRow" duration-ms="3968" started-at="2019-10-20T22:19:29 IST" description="Verify the delete click functionality -base url change" finished-at="2019-10-20T22:19:33 IST">
+        <test-method status="FAIL" signature="verifyDeleteButtonClickInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyDeleteButtonClickInEachRow" duration-ms="2564" started-at="2019-10-21T02:27:33 IST" description="Verify the delete click functionality -base url change" finished-at="2019-10-21T02:27:36 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at utility.UserActions.actionclick(UserActions.java:50)
+at com.test.challengingDOM.ChallengingDOM.verifyDeleteButtonClickInEachRow(ChallengingDOM.java:136)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeleteButtonClickInEachRow -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1116" started-at="2019-10-20T22:19:33 IST" finished-at="2019-10-20T22:19:34 IST">
+        <test-method status="PASS" signature="verifyAnswerBlock()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyAnswerBlock" duration-ms="1250" started-at="2019-10-21T02:27:34 IST" description="Verify the presence of Answer block" finished-at="2019-10-21T02:27:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAnswerBlock -->
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="575" started-at="2019-10-21T02:27:35 IST" finished-at="2019-10-21T02:27:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyDeleteButtonInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyDeleteButtonInEachRow" duration-ms="1987" started-at="2019-10-20T22:19:34 IST" description="verify end of each row delete button is present" finished-at="2019-10-20T22:19:36 IST">
+        <test-method status="FAIL" signature="verifyDeleteButtonInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyDeleteButtonInEachRow" duration-ms="4197" started-at="2019-10-21T02:27:35 IST" description="verify end of each row delete button is present" finished-at="2019-10-21T02:27:40 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at utility.UserActions.isEnbleAndDisplay(UserActions.java:35)
+at com.test.challengingDOM.ChallengingDOM.verifyDeleteButtonInEachRow(ChallengingDOM.java:111)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeleteButtonInEachRow -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="731" started-at="2019-10-20T22:19:36 IST" finished-at="2019-10-20T22:19:37 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="524" started-at="2019-10-21T02:27:36 IST" finished-at="2019-10-21T02:27:36 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyEachColumnDataSequence()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEachColumnDataSequence" duration-ms="6511" started-at="2019-10-20T22:19:37 IST" description="verify each column columnsequence" finished-at="2019-10-20T22:19:43 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1095" started-at="2019-10-21T02:27:36 IST" finished-at="2019-10-21T02:27:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="FAIL" signature="verifyEachColumnDataSequence()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEachColumnDataSequence" duration-ms="3156" started-at="2019-10-21T02:27:36 IST" description="verify each column columnsequence" finished-at="2019-10-21T02:27:39 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+at utility.UserActions.getTheListOfStringFromFindElements(UserActions.java:65)
+at pageObject.challengingDOM.ChallengingDOMPage.getTheEachColumnData(ChallengingDOMPage.java:120)
+at com.test.challengingDOM.ChallengingDOM.verifyEachColumnDataSequence(ChallengingDOM.java:82)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEachColumnDataSequence -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1120" started-at="2019-10-20T22:19:43 IST" finished-at="2019-10-20T22:19:44 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyEditButtonClickInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEditButtonClickInEachRow" duration-ms="3771" started-at="2019-10-20T22:19:44 IST" description="Verify the edit click functionality -base url change" finished-at="2019-10-20T22:19:48 IST">
+        <test-method status="FAIL" signature="verifyEditButtonClickInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEditButtonClickInEachRow" duration-ms="10983" started-at="2019-10-21T02:27:37 IST" description="Verify the edit click functionality -base url change" finished-at="2019-10-21T02:27:48 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at utility.UserActions.actionclick(UserActions.java:51)
+at com.test.challengingDOM.ChallengingDOM.verifyEditButtonClickInEachRow(ChallengingDOM.java:121)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEditButtonClickInEachRow -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="534" started-at="2019-10-20T22:19:48 IST" finished-at="2019-10-20T22:19:49 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1306" started-at="2019-10-21T02:27:38 IST" finished-at="2019-10-21T02:27:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyEditButtonInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEditButtonInEachRow" duration-ms="1163" started-at="2019-10-20T22:19:49 IST" description="verify end of each row edit button is present" finished-at="2019-10-20T22:19:50 IST">
+        <test-method status="PASS" signature="verifyEditButtonInEachRow()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyEditButtonInEachRow" duration-ms="13387" started-at="2019-10-21T02:27:39 IST" description="verify end of each row edit button is present" finished-at="2019-10-21T02:27:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEditButtonInEachRow -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="612" started-at="2019-10-20T22:19:50 IST" finished-at="2019-10-20T22:19:50 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1087" started-at="2019-10-21T02:27:39 IST" finished-at="2019-10-21T02:27:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyFooter()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyFooter" duration-ms="7286" started-at="2019-10-20T22:19:50 IST" description="Verify the prsence of Footer and it&#039;s hyper link" finished-at="2019-10-20T22:19:58 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="1330" started-at="2019-10-21T02:27:40 IST" finished-at="2019-10-21T02:27:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBaseURL -->
+        <test-method status="FAIL" signature="verifyFooter()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyFooter" duration-ms="9753" started-at="2019-10-21T02:27:40 IST" description="Verify the prsence of Footer and it&#039;s hyper link" finished-at="2019-10-21T02:27:50 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [http://elementalselenium.com/] but found [https://the-internet.herokuapp.com/challenging_dom]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [http://elementalselenium.com/] but found [https://the-internet.herokuapp.com/challenging_dom]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at com.test.challengingDOM.ChallengingDOM.verifyFooter(ChallengingDOM.java:161)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFooter -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="3233" started-at="2019-10-20T22:19:58 IST" finished-at="2019-10-20T22:20:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyTheButtons()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyTheButtons" duration-ms="986" started-at="2019-10-20T22:20:01 IST" description="Verify the buttons- display ,enable ,color" finished-at="2019-10-20T22:20:02 IST">
+        <test-method status="FAIL" signature="verifyTheButtons()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyTheButtons" duration-ms="6571" started-at="2019-10-21T02:27:41 IST" description="Verify the buttons- display ,enable ,color" finished-at="2019-10-21T02:27:48 IST">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=77.0.3865.120)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.120, chrome: {chromedriverVersion: 76.0.3809.25 (a0c95f440512e..., userDataDir: C:\Users\USER\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51909}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d33f079c30653afee987b290ca256e47
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:326)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:670)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:666)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+at utility.UserActions.isEnbleAndDisplay(UserActions.java:35)
+at pageObject.challengingDOM.ChallengingDOMPage.verifyAlertButtonsIsEnabledAndDisplay(ChallengingDOMPage.java:78)
+at com.test.challengingDOM.ChallengingDOM.verifyTheButtons(ChallengingDOM.java:48)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheButtons -->
-        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="652" started-at="2019-10-20T22:20:02 IST" finished-at="2019-10-20T22:20:02 IST">
+        <test-method status="PASS" signature="launchBaseURL()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="launchBaseURL" is-config="true" duration-ms="2234" started-at="2019-10-21T02:27:48 IST" finished-at="2019-10-21T02:27:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBaseURL -->
-        <test-method status="PASS" signature="verifyTheHeader()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyTheHeader" duration-ms="514" started-at="2019-10-20T22:20:02 IST" description="verify the table header -name" finished-at="2019-10-20T22:20:03 IST">
+        <test-method status="PASS" signature="verifyTheHeader()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="verifyTheHeader" duration-ms="966" started-at="2019-10-21T02:27:50 IST" description="verify the table header -name" finished-at="2019-10-21T02:27:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTheHeader -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="closeBrowser" is-config="true" duration-ms="824" started-at="2019-10-20T22:20:03 IST" finished-at="2019-10-20T22:20:04 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.challengingDOM.ChallengingDOM@1d16f93d]" name="closeBrowser" is-config="true" duration-ms="795" started-at="2019-10-21T02:27:53 IST" finished-at="2019-10-21T02:27:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.test.challengingDOM.ChallengingDOM -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!--  Challenging DOM -->
+  </suite> <!-- Challenging DOM Parallel Testing -->
 </testng-results>

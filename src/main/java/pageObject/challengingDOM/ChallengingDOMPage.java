@@ -51,7 +51,8 @@ public class ChallengingDOMPage extends BaseClass {
 
 	// Verify the GitHub Link Present
 
-	public boolean verifyGitHubLinkIsDispalyAndEnable() {
+	
+	public boolean gitHubLinkIsDispalyAndEnable() {
 		return actions.isEnbleAndDisplay(linkGitHub);
 	}
 
